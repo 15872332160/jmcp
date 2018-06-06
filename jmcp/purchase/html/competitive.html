@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="金猫彩票触屏版">
+    <meta name="description" content="金猫彩票触屏版">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="author" content="author,email address">
+    <title>竞彩足球--金猫彩票</title>
+    <script src="../../js/common.js"></script>
+    <script type="text/javascript">
+        requireCss('H5/jmcp/css/swiper-4.1.0.min.css');
+        requireCss('H5/jmcp/css/common.css');
+        requireCss('H5/jmcp/purchase/css/competitive.css');
+        requireCss('H5/jmcp/css/base.css');
+    </script>
+</head>
+<body>
+<div id="jmcp">
+    <!--筛选-->
+    <div id="shai"></div>
+    <!--玩法-->
+    <div class="TnameCon">
+        <ul>
+            <li><span class="menubg1">胜平负</span></li>
+            <li><span class="menubg2">让球胜平负</span></li>
+            <li><span class="menubg3">混合</span></li>
+            <li><span class="menubg4">总进球</span></li>
+            <li><span class="menubg5">比分</span></li>
+            <li><span class="menubg6">半全场</span></li>
+        </ul>
+    </div>
+    <!--home-->
+    <div class="header commBac ">
+        <span class="TName">竞彩足球-<em id="TName">混合投注</em> <i class="qi-arrow"></i></span>
+        <span id="menu" class="iconbg1"></span>
+        <span id="select" class="iconbg2"></span>
+        <!--菜单-->
+        <ul id="rigmenu">
+            <li class="ic1"><a href="/html/draw.list.html?lid=501">开奖信息</a></li>
+            <li class="ic2"> <a href="/news/30000.html">玩法帮助</a></li>
+        </ul>
+    </div>
+    <div class="tab "></div>
+    <!--购买提交-->
+    <div class="choose" style="display:none;">
+        <div class="headerTo commBac">
+            <span class="back">&nbsp;</span>
+            <span class="white">胜平负</span>
+            <span class="white fr allclear" style="padding-right:.3rem">清空列表</span>
+        </div>
+       <div class="" style="margin-bottom: 2rem;">
+           <div class="Tissue"><img src="../image/tissue_t.png" alt=""></div>
+           <div class="padD2">
+               <div class="shopdiv"></div>
+           </div>
+           <div><img src="../image/tissue_b.png" alt=""></div>
+       </div>
+        <div class="footer">
+            <div class="blackbg clear">
+                <span class="cuan fl">2串1</span>
+                <div class="r1 fr">
+                    <span class="white f1">投</span>
+                    <span class="opbtn border-right hidden">-</span>
+                    <input type="text" class="intext" value="1">
+                    <span class="opbtn border-left hidden">+</span>
+                    <span class="white f1">倍</span>
+                </div>
+            </div>
+            <div class="balMoney clear">
+                <div class="linebor">
+                    共
+                    <span id="total">1</span>注&nbsp;&nbsp;
+                    <span id="money">2</span>元
+                    <p><span id="yuji">预计奖金</span>：<span class="yellow" id="minprize">9.92</span><span class="yellow"> ~ </span><span class="yellow" id="maxprize">9.92</span></p>
+                    <br>
+                </div>
+                <div class="whitebg commBac">
+                     <!--<span class="k1">奖金优化</span>-->
+                    <span class="k3" id="buy">确认购买</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--/提交框-->
+    <footer>
+        <p class="white textc cho">已选择0场</p>
+        <div class="midfo commBac">
+            <span id="count">已选0场</span>
+        </div>
+        <a href="#" id="del" class="del">删除</a>
+    </footer>
+    <div class="mask" style="display:none;"></div>
+    <div class="opwin hidden">
+        <section class="clear">
+            <span class="tabtit seltab">单串过关</span>
+            <span class="tabtit tabbg seltab">多串过关</span>
+        </section>
+        <!--单关玩法-->
+        <article class="datasel">
+            <ul class="listcuan clear"></ul>
+        </article>
+        <!--多串玩法-->
+        <article class="datasel hidden">
+            <ul class="listcuan clear"></ul>
+        </article>
+        <section class="mt20">
+            <span class="tabtit" id="cancel">取消</span>
+            <span class="tabtit green " id="allright">确定</span>
+        </section>
+        <input type="hidden" class="selhidden">
+    </div>
+</div>
+<div id="showText"></div>
+<div id="User"></div>
+<div id="load"><div><a href=""></a></div>
+</div>
+</body>
+<script>
+    requireJs('H5/jmcp/js/jquery-2.1.1.min.js');
+    requireJs('H5/jmcp/js/swiper-4.1.0.min.js');
+    requireJs('H5/jmcp/js/computeCuan.js');
+    requireJs('H5/jmcp/js/main1.js');
+    requireJs('H5/jmcp/js/user.js');
+    requireJs('H5/jmcp/js/competitive.js');
+    requireJs('H5/jmcp/js/index/30000.js');
+    requireJs('H5/jmcp/js/openWin.js');
+    requireJs('H5/jmcp/js/labelOp.js');
+    requireJs('H5/jmcp/js/index/slides.js');
+</script>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="金猫彩票触屏版">
+    <meta name="description" content="金猫彩票触屏版">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="author" content="author,email address">
+    <title>金猫彩票-个人中心</title>
+    <script src="../js/common.js"></script>
+    <script>
+        requireCss('H5/jmcp/css/home.css')
+        requireCss('H5/jmcp/css/common.css')
+        requireCss('H5/jmcp/css/base.css')
+    </script>
+</head>
+<body>
+<div id="jmcp">
+    <!--home-->
+    <div class="nav">
+        <div class="head">
+            <div class="head_sett">
+                <span><a href="#" class=""></a></span>
+                <span><a href="#" class=""></a></span>
+            </div>
+            <div class="signShow">
+                <div class="signY" style="display:none;">
+                    <div class="head_title clear">
+                        <div class="head_phone"><img src="image/Tx-img.png" alt=""></div>
+                        <div class="head_name">
+                            <div class="names">我的一个道姑朋友<i class="vip-all vip-5"></i></div>
+                            <div class="fans">
+                                <span>关注：<em>254</em></span>
+                                <span>粉丝：<em>26213</em></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sign"><a href="member/sign.html">今日签到</a></div>
+                </div>
+                <div class="signN">
+                    <a class="side_reg" onclick="X.user.signIn()">登 陆</a>
+                    <a class="side_reg" onclick="X.user.signUp()">注 册</a>
+                </div>
+            </div>
+        </div>
+        <div class="navCon">
+            <ul>
+                <li class="member">
+                    <a href="member/member.html">
+                        <span>
+                            <i class="iconAll icon-member"></i>
+                        </span>
+                        <span>会员中心</span>
+                    </a>
+                </li>
+            </ul>
+            <dl class="assets">
+                <dd>
+                    <a href="#">
+                        <em>167.23</em>
+                        <span>余额(元)</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <em>563</em>
+                        <span>积分(点)</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <em>2</em>
+                        <span>彩金券(张)</span>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="drawing">
+                <dd>
+                    <a href="#">
+                        <span><i class="iconAll icon-recharge"></i></span>
+                        <span>充值</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="#">
+                        <span><i class="iconAll icon-drawing"></i></span>
+                        <span>提现</span>
+                    </a>
+                </dd>
+            </dl>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span><i class="iconAll icon-extension"></i></span>
+                        <span>推广管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><i class="iconAll icon-record"></i></span>
+                        <span>购彩记录</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><i class="iconAll icon-detailed"></i></span>
+                        <span>资金明细</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span><i class="iconAll icon-reward"></i></span>
+                        <span>我的打赏</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部-->
+    <footer class="footer">
+        <div class="purchase">
+            <a href="../purchase/index.html">
+                <div class="icon1"></div>
+                <div class="item-2">首页</div>
+            </a>
+        </div>
+        <div class="score">
+            <a href="../score/score.html">
+                <div class="icon2"></div>
+                <div class="item-2">比分</div>
+            </a>
+        </div>
+        <div class="okami">
+            <a href="../okami/gendan.html">
+                <div class="icon3"></div>
+                <div class="item-2">大神</div>
+            </a>
+        </div>
+        <div class="home cur">
+            <a href="#home">
+                <div class="icon5"></div>
+                <div class="item-2">我的</div>
+            </a>
+        </div>
+        <div class="find">
+            <a href="#find">
+                <div class="icon4"></div>
+                <div class="item-2">APP下载</div>
+            </a>
+        </div>
+    </footer>
+</div>
+<div id="User"></div>
+<div id="load"><div><a></a></div></div>
+</body>
+<script>
+    requireJs('H5/jmcp/js/jquery-2.1.1.min.js')
+    requireJs('H5/jmcp/js/main.js')
+    requireJs('H5/jmcp/js/user.js')
+</script>
+</html>

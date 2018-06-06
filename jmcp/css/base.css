@@ -1,0 +1,97 @@
+body{background:#fff!important;}
+/*已修改*/
+.signLogo{margin:.4rem  auto;}
+.signLogo_img{background:url("../image/signLogo.png") no-repeat center;width:1.65rem;height:1.65rem;display: block;margin:0 auto;background-size:100%;}
+#User .signBox{padding:0 .3rem;margin:0 auto;}
+#User .signBox2{padding:.2rem .6rem 0;margin: auto;}
+#User .signLine { margin-bottom: .15rem;overflow: hidden;}
+#User .signLine input {width: 95%;border-radius: .1rem;height: .9rem;padding: 0 2%;font-size: .3rem;color: #666;border:1px solid #e1e1e1;}
+#User .signLine2{text-align: center;border:1px solid #dcdcdc;border-radius: 10rem;height:.78rem;background:transparent;margin: .4rem 0;}
+#User .signLine2 .iconfont{width:.35rem;height:.4rem;display:inline-block;vertical-align: middle;background-size:100%;background-repeat: no-repeat;}
+#User .signLine2 .iconfont.icon1{background-image:url("../home/image/icon-tel.png");width:.26rem;height:.40rem;}
+#User .signLine2 .iconfont.icon2{background-image:url("../home/image/icon-code.png");width:.32rem;height:.32rem;}
+#User .signLine2 .iconfont.icon3{background-image:url("../home/image/icon-name.png");width:.30rem;height:.33rem;}
+#User .signLine2 .iconfont.icon4{background-image:url("../home/image/icon-password.png");width:.31rem;height:.35rem;}
+#User .signLine2 .iconfont.icon5{background-image:url("../home/image/icon-password2.png");width:.34rem;height:.39rem;}
+#User .signLine2 input{width:83%; height:.78rem;font-size:.28rem;color:#d0d0d0;background:transparent;border:none;padding-left:.2rem;}
+.getyzm{float: right;width: 33%;display: block;height: .76rem;line-height: .76rem;color: #fff;text-align: center; background: #ED1309;font-size: .24rem;padding: 0.2%;}
+
+#User .signLine2 span{color:#fff;border-top-right-radius: 1rem;border-bottom-right-radius: 1rem;}
+#User .signLine2 input#yzm{width:50%;}
+#User #signUp3{position:fixed;bottom:0;margin-right:.2rem;}
+.checkbox-label{border: 1px solid #222;border-radius: 20%;position: relative;height: .256rem;width: .256rem;display: inline-block;top: .0512rem;}
+input[type=checkbox]:checked+.checkbox-label:after{content: " ";position: absolute;border: 1px solid #222;border-top: 0;border-right: 0;height: 30%;width: 60%;top: .04267rem;left: .0512rem;transform: rotate(-45deg);-moz-transform: rotate(-45deg);-webkit-transform: rotate(-45deg);}
+.sign_text{margin-top:.3rem;}
+.sign_text a{color:#0874cf;}
+#User .signLine input#searchPhone{
+    width:65%;
+}
+
+.denglu{color:#000;font-size:1em;  position: absolute; right:0.5em;  }
+.regit{color:#fff;font-size:0.7em;  position: absolute; right:0.5em; display: block;padding: 5px;background:#ec755f; border-radius: 0.1em;height: 20px; width: 50px ;line-height: 20px; top:0.5em }
+.clearfix{display: block; overflow: hidden; clear: both}
+.f10{font-size: 1.4em; color: #7f7f7f}
+#User .signLine input.input2{width:50%;float:left}
+#User .signLine #userCount{width:42%;float:right;background:#ddd;border-radius:3px;height:37px;line-height:37px;color:#007bed;text-align:center;}
+#User .signLine #userCount a{width:100%;height:37px;background:#007bed;color:#fff;line-height:37px;text-align:center;float:left;border-radius:3px;}
+
+
+/*已修改*/
+.parig {float: right;color: #000;font-size: .26rem;line-height: 1rem;}
+.parigL {float: left;color: #000;font-size: .26rem;line-height: 1rem;}
+.btn1 {width: 100%;height: .9rem;line-height: .9rem;background: #ea191d;color: #fff;font-size: .28rem;text-align: center;display: block;margin-top:.1rem;border-radius: .1rem;}
+.btn2 {background: #fff;color: #666;margin:0;}
+.btn3 {
+    width:28%;display:inline-block;
+    height:.9rem;
+    float:right;
+    text-align: center;
+    line-height: .9rem;
+    border-radius: .1rem;
+    background:#ED1309;
+    color:#fff;
+    font-size:.24rem;
+}
+.signLine3 a{
+    line-height: 1rem;
+}
+#User .fr{float:right}
+.hide{display:none;}
+
+#load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0,0.3);
+    display: none;
+}
+#load div {
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 50%;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+}
+#load a {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    -moz-animation: loading 2s linear infinite;
+    -webkit-animation: loading 2s linear infinite;
+    -ms-animation: loading 1s linear infinite;
+    -o-animation: loading 2s linear infinite;
+    background-image: url('../image/loading.png');
+}
+@keyframes loading {
+    0%{ -webkit-transform: rotate(0deg);}
+    100%{  -webkit-transform: rotate(360deg);}
+}

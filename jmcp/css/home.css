@@ -1,0 +1,241 @@
+body{
+    position:relative;
+    font-size:14rem;
+    width: 7.5rem;
+    padding:0;
+    margin:0 auto;
+}
+.signN{
+    width:4.4rem;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top:.8rem;
+}
+.signN a:first-child{float:left;}
+.signN a:last-child{float:right;}
+.signN a{
+    display:inline-block;
+    width:2rem;
+    height:.65rem;
+    line-height:.65rem;
+    background:#fff;
+    border-radius: .1rem;
+    text-align: center;
+    color:#F43A16;
+    font-size:.28rem;
+}
+.nav{
+    margin-bottom:3rem;
+}
+.head{
+    height:2.92rem;
+    background:url("../home/image/logo-bac.png")no-repeat center;
+    position:relative;
+}
+.head_sett{
+    height:.46rem;
+    padding:.3rem .3rem 0;
+    display: flex;
+    display: -webkit-flex;
+    left: 0;
+    overflow: hidden;
+}
+.head_sett span{
+    flex:1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+.head_sett a{
+    width:.46rem;
+    height:.46rem;
+    display:inline-block;
+}
+.head_sett span:nth-child(2){
+    text-align: right;
+}
+.head_sett span:nth-child(1) a{background: url("../home/image/top-active.png")no-repeat center;background-size:100%;}
+.head_sett span:nth-child(2) a{background: url("../home/image/top-sees.png")no-repeat center;background-size:100%;}
+
+/**头像**/
+.head_title{
+    margin-top:.45rem;
+}
+.head_title > div{display: inline-block;float:left;}
+.head_phone{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin-left:.3rem;
+}
+.head_phone img{
+    height: 1.2rem;
+    width: 1.2rem;
+    padding: .025rem;
+    background: #F05352;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.625rem;
+    margin-top: -.625rem;
+}
+.head_name{
+    margin-left:.2rem;
+}
+.head_name .names{
+    font-size: .32rem;
+    color:#fff;
+    margin-top:.2rem;
+}
+.head_name .fans{
+    color:#fff;
+    font-size: .26rem;
+    margin-top:.11rem;
+}
+.head_name .fans span:nth-child(1){
+    margin-right:.2rem;
+}
+.sign a{
+    display:inline-block;
+    width:1.9rem;
+    height:.8rem;
+    line-height: .8rem;
+    text-align: center;
+    color:#fff;
+    background:#FF9D00;
+    position:absolute;
+    right:0;
+    top:50%;
+    cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+/***会员***/
+.navCon ul{
+    background:#fff;
+    display:block;
+    margin-bottom:.1rem;
+}
+.navCon ul li{
+    height:1rem;
+    line-height: 1rem;
+    padding:0 .3rem;
+    position:relative;
+    border-bottom: 1px solid #eee;
+}
+.navCon ul li a{display:block;}
+.navCon .drawing span:nth-child(1),
+.navCon ul li span:nth-child(1){
+    width: .5rem;
+    display: inline-block;
+    text-align: center;
+    margin-right:.1rem;
+}
+.navCon ul li span:nth-child(2){
+    font-size:.3rem;
+}
+.navCon ul li a:after{
+    content: '';
+    display: inline-block;
+    background: url(../home/image/left.png)no-repeat center;
+    width: .12rem;
+    height: .22rem;
+    background-size: 100%;
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.11rem;
+}
+.navCon i.iconAll{
+    display:inline-block;
+    background-size:100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+.navCon i.icon-member{background-image: url("../home/image/icon-vip.png"); width:.42rem;height:.34rem;}
+.navCon i.icon-record{background-image: url("../home/image/icon-record.png"); width:.24rem;height:.31rem;}
+.navCon i.icon-recharge{background-image: url("../home/image/icon-recharge.png"); width:.4rem;height:.27rem;}
+.navCon i.icon-drawing{background-image: url("../home/image/icon-drawing.png"); width:.34rem;height:.35rem;}
+.navCon i.icon-detailed{background-image: url("../home/image/icon-detailed.png"); width:.32rem;height:.32rem;}
+.navCon i.icon-extension{background-image: url("../home/image/icon-extension.png"); width:.35rem;height:.31rem;}
+.navCon i.icon-reward{background-image: url("../home/image/icon-reward.png"); width:.3rem;height:.33rem;}
+
+.navCon dl{
+    background:#fff;
+    margin-bottom:.1rem;
+    display:block;
+    overflow: hidden;
+}
+.navCon dl.drawing{
+    padding:0 .3rem;
+}
+dl.assets dd{
+    width:33.333%;
+    display:inline-block;
+    position:relative;
+    float:left;
+    text-align: center;
+}
+dl.assets dd a{display: block;padding:.35rem 0;}
+dl.assets dd em{
+    display:block;
+    font-size:.3rem;
+    font-weight: bold;
+}
+dl.assets dd span{
+    display:block;
+    font-size:.22rem;
+    color:#666;
+}
+dl.assets dd:nth-child(1):after,
+dl.drawing dd:nth-child(1):after,
+dl.assets dd:nth-child(2):after{
+    position: absolute;
+    content: '';
+    left: 100%;
+    display: inline-block;
+    height: .6rem;
+    border-right: 1px solid #f2f2f2;
+    vertical-align: top;
+    top:50%;
+    margin-top:-.3rem;
+}
+dl.drawing dd{
+    width:50%;
+    float:left;
+    display:inline-block;
+    position:relative;
+
+}
+dl.drawing dd a{display:block;padding:.3rem 0;}
+dl.drawing dd:nth-child(2) span:first-child{
+    padding-left:.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

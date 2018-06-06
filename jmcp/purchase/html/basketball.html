@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="金猫彩票触屏版">
+    <meta name="description" content="金猫彩票触屏版">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="author" content="author,email address">
+    <title>竞彩篮球--金猫彩票</title>
+    <script src="../../js/common.js"></script>
+    <script type="text/javascript">
+        requireCss('H5/jmcp/css/swiper-4.1.0.min.css');
+        requireCss('H5/jmcp/css/common.css');
+        requireCss('H5/jmcp/purchase/css/basketball.css');
+        requireCss('H5/jmcp/css/base.css');
+    </script>
+</head>
+<body>
+<div id="jmcp">
+    <div id="one">
+        <!--玩法-->
+        <div class="TnameCon">
+            <ul>
+                <li><span class="menubg1 cur">胜负</span></li>
+                <li><span class="menubg2">让分胜负</span></li>
+                <li><span class="menubg3">胜分差</span></li>
+                <li><span class="menubg4">大小分</span></li>
+                <li><span class="menubg5">混合</span></li>
+            </ul>
+        </div>
+        <!--header-->
+        <div class="header commBac ">
+            <span class="TName">竞彩篮球-<em id="TName">混合</em> <i class="qi-arrow"></i></span>
+            <a href="">
+                <span class="help">帮助</span>
+            </a>
+        </div>
+        <!--nav-->
+        <div id="main"></div>
+        <footer>
+            <p class="white textc cho">已选择0场</p>
+            <div class="midfo commBac">
+                <span id="count">已选择0场</span>
+            </div>
+            <a href="#" id="del" class="del">删除</a>
+        </footer>
+    </div>
+    <div id="selectData" style="display:none;">
+        <div class="headerTo commBac">
+            <span class="back">&nbsp;</span>
+            <span id="titleH" class="white">胜平负</span>
+            <span id="clearall" class="white fr allclear" style="padding-right:.3rem">清空列表</span>
+        </div>
+        <div style="margin-bottom: 2rem;">
+            <div class="Tissue"><img src="../image/tissue_t.png" alt=""></div>
+            <div class="padD2">
+                <div id="selecthtml"></div>
+            </div>
+            <div><img src="../image/tissue_b.png" alt=""></div>
+        </div>
+        <div class="footer">
+            <div class="blackbg clear">
+                <span id="cuan" class="cuan fl">2串1</span>
+                <div class="r1 fr">
+                    <span class="white f1">投</span>
+                    <span class="opbtn border_right hidden">-</span>
+                    <input type="text" class="intext" value="1">
+                    <span class="opbtn border_left hidden">+</span>
+                    <span class="white f1">倍</span>
+                </div>
+            </div>
+            <div class="balMoney clear">
+                <div class="linebor">
+                    共
+                    <span id="total">2</span>注&nbsp;&nbsp;
+                    <span id="money">4</span>元
+                    <p><span id="yuji">预计最大奖金</span>：<span class="yellow" id="maxprize">12.82元</span></p>
+                    <br>
+                </div>
+                <div class="whitebg commBac">
+                    <!--<span class="k1">奖金优化</span>-->
+                    <span class="k3" id="buy">确认购买</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mask" style="display:none;"></div>
+</div>
+<div id="showText"></div>
+<div id="User"></div>
+<div id="load"><div><a href=""></a></div></div>
+</body>
+<script>
+    requireJs('H5/jmcp/js/jquery-2.1.1.min.js');
+    requireJs('H5/jmcp/js/swiper-4.1.0.min.js');
+    requireJs('H5/jmcp/js/computeCuan.js');
+    requireJs('H5/jmcp/js/main1.js');
+    requireJs('H5/jmcp/js/user.js');
+    requireJs('H5/jmcp./js/competitive.js');
+    requireJs('H5/jmcp/js/openWin.js');
+    requireJs('H5/jmcp/js/basketball.js');
+    requireJs('H5/jmcp/js/basketlabel.js');
+</script>
+<script>
+    var s_type,s_pt,s_title,s_ld,s_left,s_dang
+    var submitPD=true;//避免客户重复提交
+    if(X.urlSearch("bodynum")){
+        s_pt= X.urlSearch('bodynum')
+    }else{
+        s_pt=1
+    }
+    if(X.urlSearch("type")){
+        s_type= X.urlSearch("type")
+    }else{
+        s_type=0
+    }
+    if(X.urlSearch("lotteryId")){
+        s_ld= X.urlSearch('lotteryId')
+    }else{
+        s_ld=505
+    }
+    if(X.urlSearch("title")){
+        s_title= X.urlSearch('title')
+    }else{
+        s_title='竞彩篮球胜负'
+    }
+    if(X.urlSearch("left")){
+        s_left= X.urlSearch("left")
+    }else{
+        s_left=0
+    }
+</script>
+</html>

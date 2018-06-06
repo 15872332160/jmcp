@@ -1,0 +1,229 @@
+.signCon{
+    background-color:#fff!important;
+}
+.top{
+    height:8.03rem;
+    max-width:100%;
+    background:url("../member/image/sign_bg.png")no-repeat center;
+    background-size:100%;
+    text-align: center;
+}
+.top img{
+    margin:0 auto;
+    padding:.3rem 0 .15rem;
+    width:1.2rem;
+    height:1.2rem;
+}
+.sign_name span{
+    display:block;
+    color:#fff;
+}
+.sign_name span.name_t{
+    font-size:.36rem;
+}
+.sign_name span.name_q{
+    font-size:.24rem;
+    margin-top:.05rem;
+    letter-spacing:.03rem;
+
+}
+.sign_name span.name_q:before{
+    content: '';
+    display:inline-block;
+    background:url("../member/image/i_xx.png")no-repeat center;
+    background-size: 100%;
+    width:.2rem;
+    height:.18rem;
+    vertical-align: middle;
+    margin-right: .08rem;
+}
+.sign_btn button{
+    height:.82rem;
+    width:6.4rem;
+    border:none;
+    font-size:.36rem;
+    color:#fff;
+    border-radius:2rem;
+    background:#FBB7AD;
+    margin-top:.3rem;
+}
+.sign_btn button.active{
+    background:transparent;
+    border:1px solid #fff;
+}
+
+/******签到日历******/
+.signData{
+    padding-bottom:.15rem;
+}
+.data-cent{
+    padding:.1rem .3rem 0;
+}
+.current-date{
+    height:.85rem;
+    line-height: .85rem;
+    border-bottom:1px solid #E5E5E5;
+    font-size:.28rem;
+}
+.current-week{overflow: hidden;}
+.current-week ul{
+    overflow: hidden;
+    margin:.2rem 0;
+}
+.current-week ul li{
+    display: inline-block;
+    width: 14.28557%;
+    float: left;
+    text-align: center;
+    position:relative;
+    height:.55rem;
+    line-height: .55rem;
+}
+.current-week ul li + li:before{
+    content: '';
+    display: inline-block;
+    border-right: 1px solid #eee;
+    vertical-align: .02rem;
+    height: .16rem;
+    position: absolute;
+    left: 0;
+    top: .2rem;
+}
+.qiandao-main{
+    padding:0 .3rem;
+    overflow: hidden;
+}
+.qiandao-main ul li{
+    position:relative;
+    float:left;
+    width:14.28557%;
+    text-align: center;
+    height:.6rem;
+    line-height: .6rem;
+    cursor: pointer;
+}
+.qiandao-list li .qiandao-icon{color:#000;position:relative;z-index: 1;}
+.qiandao-list li .qiandao-icon2{color:#999;}
+.qiandao-list li.qiandao > div{color:#F43A16;}
+.qiandao-list li.able-qiandao .qiandao-icon{color:#fff;}
+.qiandao-list li.able-qiandao:before{
+    width: .48rem;
+    height: .48rem;
+    background: #f76d5b;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -.28rem 0 0 -.24rem;
+    box-shadow: 0 .03rem .03rem #f43a16;
+}
+.qiandao-list li.qiandao:before{
+    width:.17rem;
+    height:.17rem;
+    content: '';
+    display:inline-block;
+    background:url("../member/image/pan.png")no-repeat center;
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-.09rem;
+    background-size:100%;
+}
+
+/**签到礼包**/
+.signLB{
+    background:#fff;
+    margin-top:.15rem;
+    padding:0 .3rem .5rem   ;
+}
+.signLB_title{
+    height:.85rem;
+    line-height: .85rem;
+    border-bottom:1px solid #E5E5E5;
+    font-size:.28rem;
+}
+.signLB_con h2{
+    font-size:.24rem;
+    color:#ffad13;
+    font-weight: normal;
+    margin:0;
+    height:.65rem;
+    line-height: .65rem;
+}
+.color7{background:#fd7e3d;}
+.color14{background:#37b0fc;}
+.color21{background:#68cd57;}
+.color28{background:#fdb331;}
+.colorImg{
+    border-radius:50%;
+    width:.8rem;
+    height:.8rem;
+    position:relative;
+}
+.colorImg span{
+    background:url("../member/image/colorImg.png")no-repeat center;
+    background-size:100% auto;
+    display:inline-block;
+    width:.46rem;
+    height:.42rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-.21rem 0 0 -.23rem;
+}
+.signLB_con ul{}
+.signLB_con ul li{
+    overflow: hidden;
+}
+.package > div{
+    display:inline-block;
+    float:left;
+}
+.package{
+    height:.8rem;
+    margin:.15rem 0;
+}
+.package_p{
+    margin-left:.15rem;
+}
+.package > div p{margin:.05rem 0 0;}
+.package_p P:nth-child(1){
+    font-size:.28rem;
+}
+.package_p P:nth-child(2){
+    font-size: .22rem;
+    color:#999;
+}
+.package .btn_lq{
+    float:right;
+}
+.package .btn_lq button.active{
+    background:#fff;
+    border:1px solid #f76d5b;
+    color:#f76d5b;
+}
+.package .btn_lq button{
+    width:1.06rem;
+    height:.46rem;
+    line-height: .46rem;
+    background:#c8c8c8;
+    border:none;
+    border-radius: 2rem;
+    margin-top:.1rem;
+    font-size: .26rem;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
