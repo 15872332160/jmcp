@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b579e103-4a58-465c-8fd4-911072ea95b9" name="jmweb" url="http://192.168.8.67">
+        <fileTransfer host="192.168.8.67" port="8080">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="8080" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
